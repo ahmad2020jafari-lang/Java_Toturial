@@ -21,5 +21,18 @@ public class FirstClass {
         if (!isCar) {
             System.out.println("This is not suppose to happen!");
         }
+
+        // Ternary Operator
+        String makeOfCar = "Volkswagen";
+        // boolean isDomisTic = makeOfCar == "Volkswagen" ? false : true;
+        boolean isDomisTic = (makeOfCar != "Volkswagen");
+
+        if (!isDomisTic) {
+            System.out.println("The Car is domistic to our Country");
+        }
+        int ageOfClient = 10;
+        String ageText = ageOfClient >= 18 ? "Over Eighten" : "Still Kid";
+        System.out.println(ageText);
+
     }
 }
